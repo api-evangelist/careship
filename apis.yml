@@ -1,8 +1,27 @@
 aid: careship
 name: Careship
-description: 'Careship is a company surfaced as a portfolio company of creandum and added to the API Evangelist
-  network as a stub for enrichment. Sector: other. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Careship (operated by Care Companion GmbH, Berlin) is a German senior-care
+  marketplace that connects elderly people and their families with vetted, non-medical
+  everyday helpers ("Alltagshilfen") from their own neighborhoods. The platform covers
+  companionship, shopping, household support, mobility and leisure, light personal
+  care, and dementia support, and helps families finance care through statutory long-term
+  care insurance (Pflegekasse). Careship operates across 20+ German cities including
+  Berlin, Hamburg, Munich, Cologne, Frankfurt, Stuttgart, and Dresden. It was added
+  to the API Evangelist network as a portfolio company of Creandum; it is a consumer
+  care-services business with no public developer or API surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/careship/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.careship.de/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,13 +30,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-- Other
+- Healthcare
+- Elder Care
+- Senior Care
+- Caregiving
+- Marketplace
+- Germany
+- Home Care
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/careship-domain-security.yml
+- type: Website
+  url: https://www.careship.de/
+- type: Blog
+  url: https://www.careship.de/senioren-ratgeber/
+- type: Pricing
+  url: https://www.careship.de/preise
+- type: Support
+  url: https://www.careship.de/faq/
+- type: TermsOfService
+  url: https://www.careship.de/agb/
+- type: PrivacyPolicy
+  url: https://www.careship.de/datenschutz/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
