@@ -10,6 +10,17 @@ description: 'Careship (operated by Care Companion GmbH, Berlin) is a German sen
   to the API Evangelist network as a portfolio company of Creandum; it is a consumer
   care-services business with no public developer or API surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/careship/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
